@@ -145,7 +145,7 @@ button.filter:hover {
     background-color: #DEEBFF;
 }
 
-.filters span {
+.filters.fltr {
     gap: 10px;
     max-width: 758px;
     max-height: 50px;
@@ -437,7 +437,7 @@ footer {
         height: auto;
     }
 
-    .filters span {
+    .filters.fltr {
         flex-direction: column;
         align-items: flex-start;
         max-height: none;
@@ -587,7 +587,7 @@ footer {
         width: 14.75rem;
     }
     
-    .filters span {
+    .filters.fltr {
         width: 100%;
         gap: 1.25rem;
     }
