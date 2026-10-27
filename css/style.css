@@ -213,7 +213,7 @@ a {
     font-size: 1.375rem;
 }
 
-.card {
+.card, .cardtop {
     background-color: white;
     border-radius: 20px;
     padding: 5px;
@@ -222,13 +222,6 @@ a {
 
 .card img {
     object-fit: cover;
-}
-
-.cardtop {
-    background-color: white;
-    border-radius: 20px;
-    padding: 5px;
-    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
 
 .cardtop img {
@@ -587,7 +580,7 @@ footer {
         width: 14.75rem;
     }
     
-    .filters.fltr {
+    .filters .fltr {
         width: 100%;
         gap: 1.25rem;
     }
@@ -688,7 +681,7 @@ footer {
         margin-bottom: 0.5rem;
     }
 
-    .Activity {
+    .activity {
         margin-bottom: 0;
     }
 
